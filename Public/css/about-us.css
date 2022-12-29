@@ -178,7 +178,7 @@
   min-height: 113px;
 }
 
-.about-us .vector-container {
+.about-us .flex-row-3 {
   align-items: flex-end;
   display: flex;
   margin-left: 7px;
@@ -188,18 +188,6 @@
 .about-us .vector-2 {
   height: 50px;
   width: 49px;
-}
-
-.about-us .vector-3 {
-  height: 56px;
-  margin-left: 43px;
-  width: 56px;
-}
-
-.about-us .vector-4 {
-  height: 52px;
-  margin-left: 41px;
-  width: 64px;
 }
 
 .about-us .lorem-ipsum-container {
@@ -313,7 +301,6 @@
 
 .about-us .rectangle-161 {
   background-color: var(--alto);
-  border: 1px none;
   border-radius: 10px;
   box-shadow: 0px 8px 24px #54d2e98c;
   height: 255px;
@@ -346,7 +333,6 @@
 
 .about-us .rectangle-163 {
   background-color: var(--alto);
-  border: 1px none;
   border-radius: 10px;
   box-shadow: 0px 8px 24px #a0ee518c;
   height: 255px;
@@ -367,7 +353,6 @@
 
 .about-us .rectangle-162 {
   background-color: var(--alto);
-  border: 1px none;
   border-radius: 10px;
   box-shadow: 0px 8px 24px #fbc8808c;
   height: 255px;

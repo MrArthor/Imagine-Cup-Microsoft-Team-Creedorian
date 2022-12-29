@@ -108,6 +108,39 @@
   z-index: 10;
 }
 
+.sign-up .rectangle-5 {
+  align-self: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 3;
+}
+
+.sign-up .email-id {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 112px;
+  margin-top: 85px;
+  min-height: 38px;
+  z-index: 11;
+}
+
+.sign-up .rectangle-12 {
+  align-self: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 4;
+}
+
 .sign-up .password {
   letter-spacing: 0;
   line-height: normal;
@@ -117,10 +150,21 @@
   z-index: 12;
 }
 
+.sign-up .rectangle-165 {
+  align-self: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 5;
+}
+
 .sign-up .rectangle-166 {
   align-self: center;
   background-color: var(--grey);
-  border: 1px none;
   border-radius: 10px;
   box-shadow: 0px 8px 24px #a5dbe58c;
   height: 89px;
@@ -133,7 +177,6 @@
 .sign-up .rectangle-167 {
   align-self: center;
   background-color: var(--grey);
-  border: 1px none;
   border-radius: 10px;
   box-shadow: 0px 8px 24px #a5dbe58c;
   height: 89px;
@@ -155,7 +198,6 @@
 .sign-up .rectangle-168 {
   align-self: center;
   background-color: var(--grey);
-  border: 1px none;
   border-radius: 10px;
   box-shadow: 0px 8px 24px #a5dbe58c;
   height: 148px;
@@ -168,7 +210,6 @@
 .sign-up .rectangle-169 {
   align-self: center;
   background-color: var(--grey);
-  border: 1px none;
   border-radius: 10px;
   box-shadow: 0px 8px 24px #a5dbe58c;
   height: 89px;
@@ -239,7 +280,7 @@
   min-height: 113px;
 }
 
-.sign-up .vector-container {
+.sign-up .flex-row-2 {
   align-items: flex-end;
   display: flex;
   margin-left: 7px;
@@ -249,18 +290,6 @@
 .sign-up .vector {
   height: 50px;
   width: 49px;
-}
-
-.sign-up .vector-1 {
-  height: 56px;
-  margin-left: 43px;
-  width: 56px;
-}
-
-.sign-up .vector-2 {
-  height: 52px;
-  margin-left: 41px;
-  width: 64px;
 }
 
 .sign-up .lorem-ipsum-container {

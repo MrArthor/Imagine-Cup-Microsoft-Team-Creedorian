@@ -98,6 +98,19 @@
   z-index: 5;
 }
 
+.vitals-edit-form-doc .rectangle-5 {
+  align-self: center;
+  background-color: var(--grey);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 3;
+}
+
 .vitals-edit-form-doc .pulse-rate {
   letter-spacing: 0;
   line-height: normal;
@@ -105,6 +118,19 @@
   margin-top: 85px;
   min-height: 38px;
   z-index: 6;
+}
+
+.vitals-edit-form-doc .rectangle-12 {
+  align-self: center;
+  background-color: var(--grey);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 4;
 }
 
 .vitals-edit-form-doc .overlap-group2 {
@@ -116,6 +142,18 @@
   position: relative;
   width: 274px;
   z-index: 7;
+}
+
+.vitals-edit-form-doc .rectangle-164 {
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 40px;
+  cursor: pointer;
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 274px;
 }
 
 .vitals-edit-form-doc .footer {

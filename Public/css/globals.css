@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800|Roboto:700,500,600,900|Inter:400,700,500,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900|Inter:400,700,500,900|Open+Sans:400,700,600,800");
 /* The following line is used to measure usage of this code in production. For more info see our usage billing page */
 @import url("https://px.animaapp.com/631193053cda19c4344defd1.631193063913a4782d2b6fae.jxy7XGJ.hcp.png");
 
@@ -31,6 +31,80 @@
   box-sizing: border-box;
 }
 
+.icon-facebook {
+  height: 56px;
+  margin-left: 43px;
+  width: 56px;
+}
+
+.icon-twitter {
+  height: 52px;
+  margin-left: 41px;
+  width: 64px;
+}
+
+.lorem-ipsum {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+}
+
+.lorem-ipsum-container-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 19.0px;
+  min-height: 330px;
+  width: 149px;
+}
+
+.date-of-birth {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 112px;
+  margin-top: 83px;
+  min-height: 38px;
+  z-index: 13;
+}
+
+.contact-number {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 112px;
+  margin-top: 83px;
+  min-height: 38px;
+  z-index: 14;
+}
+
+.type-of-user {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 112px;
+  margin-top: 83px;
+  min-height: 38px;
+  z-index: 15;
+}
+
+.mental-health-container {
+  align-items: flex-start;
+  display: flex;
+  height: 39px;
+  margin-left: 10.0px;
+  margin-top: 29px;
+  min-width: 1168px;
+}
+
+.ellipse-9 {
+  align-self: center;
+  height: 257px;
+  margin-right: 1.34px;
+  margin-top: 68px;
+  object-fit: cover;
+  width: 260px;
+}
+
 .sur-102 {
   letter-spacing: 0;
   line-height: 15px;
@@ -52,32 +126,6 @@
   letter-spacing: 0;
   line-height: normal;
   min-height: 113px;
-}
-
-.lorem-ipsum {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 29px;
-}
-
-.lorem-ipsum-container-1 {
-  align-items: flex-start;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-top: 19.0px;
-  min-height: 330px;
-  width: 149px;
-}
-
-.mental-health-container {
-  align-items: flex-start;
-  display: flex;
-  height: 39px;
-  margin-left: 10.0px;
-  margin-top: 29px;
-  min-width: 1168px;
 }
 
 .in-patient {
@@ -239,45 +287,6 @@
   z-index: 11;
 }
 
-.rectangle-5 {
-  align-self: center;
-  background-color: var(--grey);
-  border: 1px none;
-  border-radius: 10px;
-  box-shadow: 0px 8px 24px #a5dbe58c;
-  height: 89px;
-  margin-left: 13.0px;
-  margin-top: 11px;
-  width: 1229px;
-  z-index: 3;
-}
-
-.rectangle-12 {
-  align-self: center;
-  background-color: var(--grey);
-  border: 1px none;
-  border-radius: 10px;
-  box-shadow: 0px 8px 24px #a5dbe58c;
-  height: 89px;
-  margin-left: 13.0px;
-  margin-top: 11px;
-  width: 1229px;
-  z-index: 4;
-}
-
-.rectangle-165 {
-  align-self: center;
-  background-color: var(--grey);
-  border: 1px none;
-  border-radius: 10px;
-  box-shadow: 0px 8px 24px #a5dbe58c;
-  height: 89px;
-  margin-left: 13.0px;
-  margin-top: 11px;
-  width: 1229px;
-  z-index: 5;
-}
-
 .rectangle-170 {
   align-self: center;
   background-color: var(--grey);
@@ -316,27 +325,6 @@
   margin-top: 81px;
   min-height: 38px;
   z-index: 17;
-}
-
-.rectangle-164 {
-  background-color: var(--blued2);
-  border: 1px none;
-  border-radius: 40px;
-  cursor: pointer;
-  height: 72px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 274px;
-}
-
-.ellipse-9 {
-  align-self: center;
-  height: 257px;
-  margin-right: 1.34px;
-  margin-top: 68px;
-  object-fit: cover;
-  width: 260px;
 }
 
 .rectangle-74 {
@@ -416,14 +404,6 @@
   margin-top: 9px;
   min-width: 401px;
   text-align: center;
-  white-space: nowrap;
-}
-
-.flex-col-item {
-  letter-spacing: 0;
-  line-height: 28px;
-  margin-left: 6px;
-  margin-top: 43px;
   white-space: nowrap;
 }
 
@@ -827,7 +807,7 @@
 
 .thursday {
   color: var(--black);
-  font-family: var(--font-family-roboto);
+  font-family: var(--font-family-roboto-medium);
   font-size: 14px;
   font-weight: 500;
   left: 2px;
@@ -925,40 +905,4 @@
   line-height: normal;
   position: absolute;
   top: 16px;
-}
-
-.email-id {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 112px;
-  margin-top: 85px;
-  min-height: 38px;
-  z-index: 11;
-}
-
-.date-of-birth {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 112px;
-  margin-top: 83px;
-  min-height: 38px;
-  z-index: 13;
-}
-
-.contact-number {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 112px;
-  margin-top: 83px;
-  min-height: 38px;
-  z-index: 14;
-}
-
-.type-of-user {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 112px;
-  margin-top: 83px;
-  min-height: 38px;
-  z-index: 15;
 }

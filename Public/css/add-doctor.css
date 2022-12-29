@@ -120,6 +120,19 @@
   z-index: 8;
 }
 
+.add-doctor .rectangle-5 {
+  align-self: center;
+  background-color: var(--grey);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 3;
+}
+
 .add-doctor .department {
   letter-spacing: 0;
   line-height: normal;
@@ -129,6 +142,19 @@
   z-index: 9;
 }
 
+.add-doctor .rectangle-12 {
+  align-self: center;
+  background-color: var(--grey);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 4;
+}
+
 .add-doctor .experience {
   letter-spacing: 0;
   line-height: normal;
@@ -136,6 +162,19 @@
   margin-top: 83px;
   min-height: 38px;
   z-index: 10;
+}
+
+.add-doctor .rectangle-165 {
+  align-self: center;
+  background-color: var(--grey);
+  border: 1px none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 5;
 }
 
 .add-doctor .place {
@@ -191,6 +230,18 @@
   position: relative;
   width: 274px;
   z-index: 13;
+}
+
+.add-doctor .rectangle-164 {
+  background-color: var(--blued2);
+  border: 1px none;
+  border-radius: 40px;
+  cursor: pointer;
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 274px;
 }
 
 .add-doctor .footer {

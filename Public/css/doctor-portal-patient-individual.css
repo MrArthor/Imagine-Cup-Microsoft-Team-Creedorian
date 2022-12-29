@@ -282,7 +282,7 @@
 
 .doctor-portal-patient-individual .medico-legal {
   color: var(--greenl1);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-open_sans-semibold);
   font-size: 36px;
   font-weight: 400;
   letter-spacing: 0;

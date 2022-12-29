@@ -293,6 +293,14 @@
   width: 479px;
 }
 
+.patient-portal-feedback .flex-col-item {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 6px;
+  margin-top: 43px;
+  white-space: nowrap;
+}
+
 .patient-portal-feedback .rectangle-82 {
   background-color: var(--grey1);
   border: 1px none;

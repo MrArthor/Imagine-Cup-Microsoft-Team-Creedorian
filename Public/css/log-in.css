@@ -108,6 +108,18 @@
   z-index: 5;
 }
 
+.log-in .rectangle-5 {
+  align-self: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 3;
+}
+
 .log-in .password {
   letter-spacing: 0;
   line-height: normal;
@@ -115,6 +127,18 @@
   margin-top: 85px;
   min-height: 38px;
   z-index: 6;
+}
+
+.log-in .rectangle-12 {
+  align-self: center;
+  background-color: var(--grey);
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px #a5dbe58c;
+  height: 89px;
+  margin-left: 13.0px;
+  margin-top: 11px;
+  width: 1229px;
+  z-index: 4;
 }
 
 .log-in .overlap-group2 {
@@ -178,7 +202,7 @@
   min-height: 113px;
 }
 
-.log-in .vector-container {
+.log-in .flex-row-2 {
   align-items: flex-end;
   display: flex;
   margin-left: 7px;
@@ -188,18 +212,6 @@
 .log-in .vector {
   height: 50px;
   width: 49px;
-}
-
-.log-in .vector-1 {
-  height: 56px;
-  margin-left: 43px;
-  width: 56px;
-}
-
-.log-in .vector-2 {
-  height: 52px;
-  margin-left: 41px;
-  width: 64px;
 }
 
 .log-in .lorem-ipsum-container {

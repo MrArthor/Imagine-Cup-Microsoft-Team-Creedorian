@@ -21,6 +21,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 
+mongoose.set('strictQuery', false);
 
 
 mongoose.connect("mongodb://localhost:27017/MajorProject", {
