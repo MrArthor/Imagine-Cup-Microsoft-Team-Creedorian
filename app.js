@@ -58,7 +58,7 @@ const SessionConfig = {
 app.use(session(SessionConfig))
 app.use(Flash())
 app.use((req, res, next) => {
-    res.locals.currentUser = req.user;
+    res.locals.currentUser = req.session.user;
     res.locals.success = req.flash('success');
     res.locals.error = req.flash('error');
     next();
@@ -68,13 +68,6 @@ app.use('/', GeneralRoutes)
 app.use('/Patient', PatientRoutes);
 app.use('/Doctor', DoctorRoutes);
 app.use('/Volunteer', VolunteerRoutes);
-app.use((req, res, next) => {
-    res.locals.success = req.flash('success');
-    res.locals.Error = req.flash('error');
-    res.locals.CurrentUser = req.user;
-
-    next();
-})
 
 
 

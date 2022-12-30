@@ -13,9 +13,11 @@
                     <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
                     <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
                     <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
-                    <a href="sign-up">
-                        <div class="navbar-link-sign-up opensans-bold-white-16px">SIGN UP</div>
-                    </a>
+                    <% if(!currentUser) {%>
+                        <a href="sign-up">
+                            <div class="navbar-link-sign-up opensans-bold-white-16px">SIGN UP</div>
+                        </a>
+                        <% } %>
                 </div>
             </div>
 

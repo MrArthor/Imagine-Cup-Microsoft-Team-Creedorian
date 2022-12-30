@@ -13,9 +13,11 @@
                     <div class="navbar-link-products opensans-bold-white-16px">PRODUCTS</div>
                     <div class="navbar-link-services opensans-bold-white-16px">SERVICES</div>
                     <div class="navbar-link-contact-us opensans-bold-white-16px">CONTACT US</div>
-                    <a href="/sign-up">
-                        <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">SIGN UP/LOG IN</div>
-                    </a>
+                    <% if(!currentUser) {%>
+                        <a href="/sign-up">
+                            <div class="navbar-link-sign-uplog-in opensans-bold-white-16px">SIGN UP/LOG IN</div>
+                        </a>
+                        <% } %>
                 </div>
             </div>
             <form action="/Patient/add-patient" method="post">
