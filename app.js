@@ -69,8 +69,6 @@ app.use('/Patient', PatientRoutes);
 app.use('/Doctor', DoctorRoutes);
 app.use('/Volunteer', VolunteerRoutes);
 
-
-
 app.get("/", (req, res) => {
     const Title = "Home-Page";
     const CssLink = 'home-page'
@@ -89,13 +87,6 @@ app.use((err, req, res, next) => {
     const CssLink = 'error-page'
     res.status(statusCode).render('error', { err, Title, CssLink });
 })
-
-
-// app.use((err, req, res, next) => {
-//     const { statusCode = 500 } = err;
-//     if (!err.message) err.message = "Oh No, Something Went Wrong!";
-//     res.status(statusCode).render("error", { err });
-// });
 
 app.listen(9483, () => {
     console.log("Serving on port 9483");

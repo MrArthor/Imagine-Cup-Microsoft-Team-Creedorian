@@ -95,4 +95,10 @@ router.get('/Chat', async(req, res) => { // Chat Page
     const Title = "Chat";
     res.redirect('http://localhost:5000/');
 });
+
+
+app.get('/LogOut', (req, res) => {
+    req.session.destroy();
+    res.redirect('/');
+});
 module.exports = router;
