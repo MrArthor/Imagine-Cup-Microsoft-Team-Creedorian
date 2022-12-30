@@ -24,7 +24,7 @@ const seedDB = async() => {
 
         const doctor = new DoctorModel({
             //YOUR USER ID
-            UserDetails: Users[i + 10]._id,
+
             Experience: Math.floor(Math.random() * 10) + 1,
             Specialization: Data[i].Qualification,
             NoOfPatients: 0,

@@ -25,7 +25,7 @@ const seedDB = async() => {
 
         const Patient = new PatientModel({
             //YOUR USER ID
-            UserDetails: Users[i]._id,
+
             Doctor: Doctors[i]._id,
             Age: Data[i].noofpatient % 20,
             Sex: Sex[i].Sex,
