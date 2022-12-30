@@ -97,7 +97,7 @@ router.get('/Chat', async(req, res) => { // Chat Page
 });
 
 
-app.get('/LogOut', (req, res) => {
+router.get('/LogOut', (req, res) => {
     req.session.destroy();
     res.redirect('/');
 });

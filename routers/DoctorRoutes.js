@@ -4,6 +4,8 @@ const DoctorModel = require('../Models/DoctorModel'); // Importing Doctor Model
 const PatientModel = require('../Models/PatientModel'); // Importing Patient Model
 const FeedbackModel = require('../Models/FeedbackModel'); // Importing Feedback Model
 const calendar = require('node-calendar'); // Importing Calendar
+const IsLoggedIn = require('../middleware');
+
 const cal = new calendar.Calendar(calendar.SUNDAY); // Creating Calendar
 router.get('/add-doctor', (req, res) => { // Add Doctor Page
     const Title = 'Doctor';
